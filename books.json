@@ -1,0 +1,39 @@
+[
+    {
+      "BookID": 1,
+      "Title": "To Kill a Mockingbird",
+      "Author": "Harper Lee",
+      "Genre": "Fiction",
+      "PublicationYear": 1960,
+      "ISBN": "9780061120084",
+      "AvailabilityStatus": "Available"
+    },
+    {
+      "BookID": 2,
+      "Title": "1984",
+      "Author": "George Orwell",
+      "Genre": "Dystopian Fiction",
+      "PublicationYear": 1949,
+      "ISBN": "9780451524935",
+      "AvailabilityStatus": "Checked Out"
+    },
+    {
+      "BookID": 3,
+      "Title": "The Great Gatsby",
+      "Author": "F. Scott Fitzgerald",
+      "Genre": "Classic Fiction",
+      "PublicationYear": 1925,
+      "ISBN": "9780743273565",
+      "AvailabilityStatus": "Available"
+    },
+    {
+      "BookID": 4,
+      "Title": "Sapiens: A Brief History of Humankind",
+      "Author": "Yuval Noah Harari",
+      "Genre": "Non-fiction",
+      "PublicationYear": 2011,
+      "ISBN": "9780062316110",
+      "AvailabilityStatus": "Available"
+    }
+  ]
+  
