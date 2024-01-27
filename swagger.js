@@ -6,7 +6,7 @@ const doc = {
         description: 'Books Api for CSE341 Project 2'
     },
     host: 'cse341project2-h69p.onrender.com',
-    schemas: ['http', 'https']
+    schemas: ['https', 'http']
 };
 
 const outputFile = './swagger.json';
