@@ -5,7 +5,7 @@ const doc = {
         title: 'Books API',
         description: 'Books Api for CSE341 Project 2'
     },
-    host: 'localhost:3000',
+    host: 'cse341project2-h69p.onrender.com',
     schemas: ['http', 'https']
 };
 

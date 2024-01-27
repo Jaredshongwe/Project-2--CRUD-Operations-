@@ -38,40 +38,41 @@ Content-Type: application/json
 DELETE http://localhost:3000/books/[ID]
 
 
-
-
-
 // Render
 ### Home page
-GET https://cse341contactproject.onrender.com
+GET https://cse341project2-h69p.onrender.com
 
-### All contacts
-GET https://cse341contactproject.onrender.com/contacts
+### All books
+GET https://cse341project2-h69p.onrender.com/books
 
-### Single contact
-GET https://cse341contactproject.onrender.com/contacts/[id]
+### Single book
+GET https://cse341project2-h69p.onrender.com/books/[ID]
 
-### Create contact
-POST  https://cse341contactproject.onrender.com/contacts HTTP/1.1
+### Create book
+POST https://cse341project2-h69p.onrender.com/books HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "jDoe@test.org",
-    "favoriteColor": "Beige",
-    "birthday": "January 1st 1999"
+    "title": "Sample Book",
+    "author": "John Author",
+    "genre": "Fiction",
+    "publicationYear": 2022,
+    "isbn": "1234567890",
+    "availabilityStatus": "Available"
 }
-### Modify contact
-PUT  https://cse341contactproject.onrender.com/contacts/[id]
+
+### Modify book
+PUT https://cse341project2-h69p.onrender.com/books/[ID] HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "Mary",
-    "lastName": "Jane",
-    "email": "Mary@jane.com",
-    "favoriteColor": "Maroon",
-    "birthday": "February 28th 2002"
+    "title": "Updated Book Title",
+    "author": "Updated Author",
+    "genre": "Non-fiction",
+    "publicationYear": 2023,
+    "isbn": "0987654321",
+    "availabilityStatus": "Checked Out"
 }
-### Delete contact
-DELETE https://cse341contactproject.onrender.com/contacts/[id]
+
+### Delete book
+DELETE https://cse341project2-h69p.onrender.com/books/[ID]
