@@ -10,12 +10,14 @@ const initDb = (callback) => {
         return callback(null, database);
     }
 
-    mongoose.connect(process.env.MONGODB_URI, { dbName: 'CSE341Project2' })
+    mongoose.connect(process.env.MONGODB_URI, { dbName: process.env.DB_NAME })
         .then((db) => {
             database = db;
+            console.log('Connected to the database');
             callback(null, database);
         })
         .catch((err) => {
+            console.error('Error connecting to the database:', err);
             callback(err);
         });
 };
