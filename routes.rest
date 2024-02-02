@@ -1,6 +1,6 @@
 // Local host
 ### Home page
-GET http://localhost:3000
+GET http://localhost:3000/
 
 ### All books
 GET http://localhost:3000/books
